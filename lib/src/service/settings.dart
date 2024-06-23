@@ -84,7 +84,7 @@ class MotionSettings extends RenderSettings {
     this.frameRate = 20,
     super.pixelRatio,
     super.processTimeout,
-  }) : assert(frameRate < 100, "Frame rate unrealistic high.");
+  });
 }
 
 class RealRenderSettings extends RenderSettings {
